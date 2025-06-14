@@ -1,37 +1,8 @@
-# E-dmart
+# React + Vite
 
-# 🛒 E dmart - E-Commerce Web App Clone
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-E dmart is a modern and responsive clone of a typical e-commerce platform, designed for users to explore, search, and purchase products online. This project demonstrates core functionality of an online shopping site including authentication, product listings, cart management, and more.
+Currently, two official plugins are available:
 
-## 🚀 Features
-
-- 🧾 Product Catalog with filters and categories
-- 🔍 Search Functionality
-- 🛒 Shopping Cart
-- 👤 User Authentication (Login/Signup)
-- 💳 Checkout Flow
-- 📱 Responsive Design for mobile and desktop
-- ⚙️ Admin Panel for product management *(Optional)*
-
-
-## 🛠️ Tech Stack
-
-| Frontend      | Backend           | Database   | Others                |
-|---------------|-------------------|------------|------------------------|
-| HTML, CSS, JavaScript | Node.js | MongoDB | Firebase Auth, React, Redux, REST APIs |
-
-> 🔁 Can be integrated with Firebase or any backend of your choice.
-
-
-## 📦 Installation
-
-# Clone the repository
-git clone https://github.com/yourusername/edmart.git
-cd edmart
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
